@@ -1,0 +1,367 @@
+@mixin josefin-sans() {
+  font-family: josefin-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $primaryDark;
+}
+@mixin shuei-minchou() {
+  font-family: dnp-shuei-mincho-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: $primaryDark;
+}
+@mixin trajan {
+  font-family: trajan-pro-3, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* color変数 */
+$primary: #f78f93;
+$primaryDark: #c16065;
+$primaryLight: #fff2f3;
+$white: #ffffff;
+$yellow: #ffe200;
+$navy: #272534;
+$black: #707070;
+$grey: #f5f5f5;
+$beige: #faf8e8;
+$green: #52b2ac;
+
+// base
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $black;
+  font-size: 1.4rem;
+  counter-reset: number 0;
+  line-height: 1.8;
+  // overflow: hidden;
+  letter-spacing: 0.05em;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  a {
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  /* color変数 */
+  $white: #ffffff;
+  $yellow: #ffe200;
+  $navy: #272534;
+  $black: #707070;
+  $grey: #f2f2f2;
+  $beige: #faf8e8;
+  $red: #ff6969;
+  $green: #52b2ac;
+}
+
+/* カード基本形 */
+.bl_card {
+}
+.bl_card_body {
+  padding: 15px;
+}
+.bl_card_body > *:last-child {
+  margin-bottom: 0;
+}
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.bl_card_des {
+  color: $black;
+}
+
+/* カラム */
+.bl_cardUnit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bl_cardUnit__col2 > .bl_card {
+  width: 40%;
+  box-sizing: border-box;
+  margin-right: 2.5%;
+  // width: clamp(400px, 40%, 400px);
+}
+.bl_cardUnit__col2 > .bl_card:nth-child(2n) {
+  margin-right: 0;
+}
+/* ヘルパークラス */
+.hp_reverse {
+  flex-direction: row-reverse;
+}
+.hp_br-pc {
+  display: block;
+}
+.hp_br-tb {
+  display: none;
+}
+.hp_br-sp {
+  display: none;
+}
+.hp_disb {
+  display: block;
+}
+.hp_anno {
+  font-size: 1rem;
+  font-weight: 300;
+}
+//margin
+.hp_mr10 {
+  margin-right: 10px;
+}
+.hp_ml10 {
+  margin-left: 10px;
+}
+.hp_mb10 {
+  margin-bottom: 10px;
+}
+.hp_mt10 {
+  margin-top: 10px;
+}
+.hp_mr30 {
+  margin-right: 30px;
+}
+.hp_ml30 {
+  margin-left: 30px;
+}
+.hp_mb30 {
+  margin-bottom: 30px;
+}
+.hp_mt30 {
+  margin-top: 30px;
+}
+.hp_mr50 {
+  margin-right: 50px;
+}
+.hp_ml50 {
+  margin-left: 50px;
+}
+.hp_mb50 {
+  margin-bottom: 50px;
+}
+.hp_mt50 {
+  margin-top: 50px;
+}
+.hp_mr80 {
+  margin-right: 80px;
+}
+.hp_ml80 {
+  margin-left: 80px;
+}
+.hp_mb80 {
+  margin-bottom: 80px;
+}
+.hp_mt80 {
+  margin-top: 80px;
+}
+.hp_mr100 {
+  margin-right: 100px;
+}
+.hp_ml100 {
+  margin-left: 100px;
+}
+.hp_mb100 {
+  margin-bottom: 100px;
+}
+.hp_mt100 {
+  margin-top: 100px;
+}
+.hp_mtLg {
+  margin-top: 120px;
+}
+.hp_mbLg {
+  margin-bottom: 120px;
+}
+.hp_mtMd {
+  margin-top: 80px;
+}
+.hp_mbMd {
+  margin-bottom: 80px;
+}
+.hp_mtSm {
+  margin-top: 30px;
+}
+.hp_mbSm {
+  margin-bottom: 30px;
+}
+
+/* padding  */
+.hp_pt30 {
+  padding-top: 30px;
+}
+.hp_pb30 {
+  padding-bottom: 30px;
+}
+.hp_pt50 {
+  padding-top: 50px;
+}
+.hp_pb50 {
+  padding-bottom: 50px;
+}
+.hp_pt80 {
+  padding-top: 80px;
+}
+.hp_pb80 {
+  padding-bottom: 80px;
+}
+.hp_pt120 {
+  padding-top: 120px;
+}
+.hp_pb120 {
+  padding-bottom: 120px;
+}
+.hp_ptLg {
+  padding-top: 120px;
+}
+.hp_pbLg {
+  padding-bottom: 120px;
+}
+.hp_mtLg {
+  margin-top: 120px;
+}
+.hp_mbLg {
+  margin-bottom: 120px;
+}
+.hp_ptMd {
+  padding-top: 80px;
+}
+.hp_pbMd {
+  padding-bottom: 80px;
+}
+.hp_ptSm {
+  padding-top: 30px;
+}
+.hp_pbSm {
+  padding-bottom: 30px;
+}
+
+//ネガティブマージン
+.hp_MT10 {
+  margin-top: -10px !important;
+}
+.hp_MT20 {
+  margin-top: -20px !important;
+}
+.hp_MT50 {
+  margin-top: -50px !important;
+}
+.hp_MT1e {
+  margin-top: -1em !important;
+}
+
+.hp_sp-br {
+  display: none !important;
+}
+.hp_db {
+  display: block !important;
+}
+
+//text-align
+.hp_tac {
+  text-align: center !important;
+}
+.hp_tar {
+  text-align: right !important;
+}
+.hp_tal {
+  text-align: left !important;
+}
+
+.hp_w400 {
+  width: 400px !important;
+}
+.hp_w50p {
+  width: 50% !important;
+}
+.hp_lh1_5 {
+  line-height: 1.5 !important;
+}
+
+//flex
+.hp_flex {
+  display: flex;
+}
+.hp_column {
+  flex-direction: column;
+}
+.hp_jcc {
+  justify-content: center;
+}
+.hp_jcsb {
+  justify-content: space-between !important;
+}
+.hp_jcsa {
+  justify-content: space-around !important;
+}
+.hp_jcfe {
+  justify-content: flex-end !important;
+}
+.hp_aic {
+  align-items: center !important;
+}
+.hp_aife {
+  align-items: flex-end;
+}
+.hp_clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.hp_clear {
+  clear: both;
+}
+.hp_centering {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-spacing: 0 !important;
+  border-collapse: separate !important;
+}
+.hp_green {
+  color: $green;
+}
+
+//font-family
+.hp_josefin {
+  @include josefin-sans();
+}
+.hp_shuei {
+  @include shuei-minchou;
+}
+
+.hp_relative {
+  position: relative;
+}
+
+.hp_blackfilter {
+  &::after {
+    /* 透過させた黒を重ねる （擬似要素で実装）*/
+    background-color: rgba(0, 0, 0, 0.2);
+    /* どの範囲に重ねるかを指定 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: " ";
+    z-index: 0;
+  }
+}
+.hp_listStyleNone {
+  list-style: none !important;
+}
+
+.hp_jp {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif !important;
+  font-size: 2rem !important;
+}
