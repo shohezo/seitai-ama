@@ -140,9 +140,11 @@ Template Name: フロントページ
                 <div class="bl_card hp_mbSm" data-aos="fade-up" data-aos-duration="1500">
                     <div class="bl_card_body">
                         <h3 class="bl_card_ttl">スッキリ爽快！ドライヘッドスパ</h3>
-                        <img src="<?php bloginfo(
-                    "template_url"
-                ); ?>/img/menu01.jpg" alt="施術風景" />
+                        <figure>
+                            <img src="<?php bloginfo(
+                        "template_url"
+                    ); ?>/img/menu01.jpg" alt="施術風景" />
+                        </figure>
                         <p class="bl_card_price">
                             <span>初回限定価格</span>
                             1,100 <span>円</span>
@@ -158,9 +160,11 @@ Template Name: フロントページ
                 <div class="bl_card hp_mbSm" data-aos="fade-up" data-aos-duration="2000">
                     <div class="bl_card_body">
                         <h3 class="bl_card_ttl">ドライヘッドスパ＋美顔マシン</h3>
-                        <img src="<?php bloginfo(
-                    "template_url"
-                ); ?>/img/menu02.jpg" alt="施術風景" />
+                        <figure>
+                            <img src="<?php bloginfo(
+                        "template_url"
+                    ); ?>/img/menu02.jpg" alt="施術風景" />
+                        </figure>
                         <p class="bl_card_price">
                             <span>初回限定価格</span>
                             1,650 <span>円</span>
