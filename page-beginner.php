@@ -9,21 +9,40 @@ Template Name: ビギナーページ
         <div class="ly_inner">
             <h2 class="el_section_ttl">Introduction</h2>
             <span class="el_section_ttl_sub hp_mbSm">ご挨拶</span>
-            <div class="bl_section hp_flex hp_ptSm hp_column_tb">
+            <div class="bl_section hp_flex hp_ptMd hp_column_tb">
                 <figure class="bl_section_imgWrapper" data-aos="fade-up">
-                    <img src="<?php bloginfo('template_url');?>/img/other.jpg" alt="施術する画像" />
+                    <img src="<?php bloginfo('template_url');?>/img/beginner01.jpg" alt="施術する画像" />
                 </figure>
                 <div class="bl_section_body">
                     <div>
-                        <h3 class="bl_section_header hp_mb10">代表</h3>
-                        <h3 class="bl_section_header hp_mb30" data-aos="fade-up">
+                        <h3 class="bl_section_header">代表</h3>
+                        <h3 class="bl_section_header hp_mb10" data-aos="fade-up">
                             井上 靖規
                         </h3>
                     </div>
                     <p class="bl_section_txt">
-                        挨拶が入ります。挨拶が入ります。挨拶が入ります。挨拶が入ります。挨拶が入ります。挨拶が入ります。挨拶が入ります。<br />
-                        挨拶が入ります。挨拶が入ります。挨拶が入ります。<br />
-                        <br />
+                        今まで約30,000名以上のクライアントと向き合い、またヨガや先人の知恵を取り入れ自分と向き合う方々と接する中で、いつも感じてきたことがあります。
+                        それは、「予防に勝る薬はない」ということです。<br />
+                    </p>
+                </div>
+            </div>
+            <div class="bl_section hp_flex hp_ptMd hp_column_tb hp_reverse">
+                <figure class="bl_section_imgWrapper" data-aos="fade-up">
+                    <img src="<?php bloginfo('template_url');?>/img/menu01.jpg" alt="施術する画像" />
+                </figure>
+                <div class="bl_section_body">
+                    <p class="bl_section_txt">
+                        定期的なカラダのメンテナンスを続けると、睡眠の質が向上し全身のリンパ液、血液の巡りが良くなり、内臓の調子も良くなっていきます。栄養吸収力や、解毒・排泄機能が　高まることで、全身の細胞の再生能力や免疫力がより活性化します。筋肉の質も向上し、姿勢が美しくなり、より快適で疲れにくい　機能的な身体へと変化していきます。
+                    </p>
+                </div>
+            </div>
+            <div class="bl_section hp_flex hp_ptMd hp_column_tb">
+                <figure class="bl_section_imgWrapper" data-aos="fade-up">
+                    <img src="<?php bloginfo('template_url');?>/img/menu02.jpg" alt="施術する画像" />
+                </figure>
+                <div class="bl_section_body">
+                    <p class="bl_section_txt">
+                        今のカラダに必要なことを包括的な視点で捉え、様々な角度から体全体を見つめなおしてより自然な形で明日の健康へと導き、日々の暮らしを心地よく感じて頂ければと思います。
                     </p>
                 </div>
             </div>
@@ -102,7 +121,7 @@ Template Name: ビギナーページ
                 ); ?>/img/menu01.jpg" alt="施術風景" />
                             <p class="bl_card_price">
                                 <span>初回限定価格</span>
-                                2,750 <span>円</span>
+                                1,100 <span>円</span>
                             </p>
                             <p class="bl_card_des">
                                 頭・首・背中を中心に全身リリースでリフレッシュ
@@ -117,10 +136,10 @@ Template Name: ビギナーページ
                             <h3 class="bl_card_ttl">ドライヘッドスパ＋美顔マシン</h3>
                             <img src="<?php bloginfo(
                     "template_url"
-                ); ?>/img/menu02.png" alt="施術風景" />
+                ); ?>/img/menu02.jpg" alt="施術風景" />
                             <p class="bl_card_price">
                                 <span>初回限定価格</span>
-                                3,850 <span>円</span>
+                                1,650 <span>円</span>
                             </p>
                             <p class="bl_card_des">
                                 頭皮と頭筋だけで無く目元や顎から首のラインまでスッキリ。快眠と憧れの小顔に

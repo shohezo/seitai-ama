@@ -283,6 +283,7 @@ body.noscroll {
 .bl_drawerBtn.action {
   .hambarg {
     width: 20px;
+    background: $white;
   }
   .hambarg:nth-child(1) {
     top: 50%;
@@ -1909,7 +1910,7 @@ body.noscroll {
       background-color: $primary;
       border: 0.5px solid $grey;
     }
-    &_ttl{
+    &_ttl {
       font-weight: normal;
     }
   }

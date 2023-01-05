@@ -8,7 +8,7 @@ Template Name: フロントページ
 <div class="ly_fv">
     <img class="el_fv_img" src="<?php bloginfo(
         "template_url"
-    ); ?>/img/fv01.jpg" alt="ヨガをする女性" />
+    ); ?>/img/fv01.jpg" alt="整体をしている様子" />
     <div class="el_icon_wrapper">
         <div class="el_icon">
             <a href="https://www.instagram.com/hongoekimaeseitai_ama/" target="_blank" rel="noopener noreferrer"><img
@@ -22,8 +22,7 @@ Template Name: フロントページ
                     ); ?>/img/icon_fb.png" alt="フェイスブックのリンクアイコン" /></a>
         </div>
         <div class="el_icon">
-            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=800mbsre" target="_blank"
-                rel="noopener noreferrer"><img src="<?php bloginfo(
+            <a href="https://lin.ee/DtgJo6Z" target="_blank" rel="noopener noreferrer"><img src="<?php bloginfo(
                     "template_url"
                 ); ?>/img/icon_line.png" alt="LINEのリンクアイコン" /></a>
         </div>
@@ -94,10 +93,12 @@ Template Name: フロントページ
             </figure>
             <div class="bl_section_body">
                 <h3 class="bl_section_header hp_mb30" data-aos="fade-up">
-                    キャッチ<br />コピーが入ります。
+                    10年先のカラダのために
                 </h3>
                 <p class="bl_section_txt">
-                    コンセプトの文章が入ります。コンセプトの文章が入ります。コンセプトの文章が入ります。コンセプトの文章が入ります。コンセプトの文章が入ります。コンセプトの文章が入ります。
+                    本郷駅前整体アマと併設のYOGA AMAでは、
+                    西洋、東洋、自然療法、ヨガ哲学などの療法や思想を統合した視点から、日常における姿勢・動作・食事・睡眠・ストレスなどを見直しし、病気や不調を未然に防ぐチカラを育てる、健康長寿のための包括的なカラダのケアを提案しています。<br>
+                    不調の原因を突き止めて解消し、日常的なセルフケアやヨガ、ワークアウトによってカラダとココロの機能を向上させていきましょう。
                 </p>
             </div>
         </div>
@@ -144,7 +145,7 @@ Template Name: フロントページ
                 ); ?>/img/menu01.jpg" alt="施術風景" />
                         <p class="bl_card_price">
                             <span>初回限定価格</span>
-                            2,750 <span>円</span>
+                            1,100 <span>円</span>
                         </p>
                         <p class="bl_card_des">
                             頭・首・背中を中心に全身リリースでリフレッシュ
@@ -159,10 +160,10 @@ Template Name: フロントページ
                         <h3 class="bl_card_ttl">ドライヘッドスパ＋美顔マシン</h3>
                         <img src="<?php bloginfo(
                     "template_url"
-                ); ?>/img/menu02.png" alt="施術風景" />
+                ); ?>/img/menu02.jpg" alt="施術風景" />
                         <p class="bl_card_price">
                             <span>初回限定価格</span>
-                            3,850 <span>円</span>
+                            1,650 <span>円</span>
                         </p>
                         <p class="bl_card_des">
                             頭皮と頭筋だけで無く目元や顎から首のラインまでスッキリ。快眠と憧れの小顔に

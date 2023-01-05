@@ -255,6 +255,9 @@
     padding-left: 0vw;
     padding-right: 0vw;
   }
+  #beginner-page #reason .bl_section {
+    gap: 0px;
+  }
   #beginner-page #voice .bl_section {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -395,7 +398,7 @@
     margin-bottom: -20px;
   }
   .bl_cardUnit > .bl_card {
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
     margin-right: 0;
   }

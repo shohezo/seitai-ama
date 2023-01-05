@@ -13,9 +13,8 @@
                             src="<?php bloginfo('template_url');?>/img/icon_fb.png" alt="フェイスブックのリンクアイコン" /></a>
                 </div>
                 <div class="el_icon">
-                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=800mbsre" target="_blank"
-                        rel="noopener noreferrer"><img src="<?php bloginfo('template_url');?>/img/icon_line.png"
-                            alt="LINEのリンクアイコン" /></a>
+                    <a href="https://lin.ee/DtgJo6Z" target="_blank" rel="noopener noreferrer"><img
+                            src="<?php bloginfo('template_url');?>/img/icon_line.png" alt="LINEのリンクアイコン" /></a>
                 </div>
             </div>
         </div>

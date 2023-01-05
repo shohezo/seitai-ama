@@ -304,6 +304,7 @@ body.noscroll {
 
 .bl_drawerBtn.action .hambarg {
   width: 20px;
+  background: #ffffff;
 }
 
 .bl_drawerBtn.action .hambarg:nth-child(1) {

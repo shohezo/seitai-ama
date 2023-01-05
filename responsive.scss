@@ -277,6 +277,9 @@
       padding-right: 0vw;
     }
   }
+  #beginner-page #reason .bl_section {
+    gap: 0px;
+  }
   #beginner-page {
     #voice {
       .bl_section {
@@ -327,7 +330,7 @@
       margin-left: auto;
       display: table;
     }
-    .bl_card{
+    .bl_card {
       width: 90%;
     }
   }
@@ -361,7 +364,6 @@
     }
   }
   #price-page {
-    
   }
 
   .hp_br-tb {
@@ -421,7 +423,7 @@
     margin-bottom: -20px;
   }
   .bl_cardUnit > .bl_card {
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
     margin-right: 0;
   }
