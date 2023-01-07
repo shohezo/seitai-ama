@@ -246,9 +246,9 @@
     width: 100%;
     gap: 10px;
   }
-  #access .bl_section_txt {
-    padding-left: 0vw;
-    padding-right: 0vw;
+  #access .bl_section {
+    text-align: center;
+    gap: 40px;
   }
   /* ビギナーページ */
   #beginner-page.ly_section {
@@ -499,18 +499,6 @@
   }
   #banner .bl_section_imgWrapper:last-child {
     margin-bottom: 0px;
-  }
-  #access .bl_section_imgWrapper {
-    width: 120px;
-  }
-  #access .el_tel {
-    text-align: center;
-  }
-  #access .bl_section_body {
-    width: 80%;
-  }
-  #access .bl_section_txt {
-    text-align: center;
   }
   .bl_footer_side {
     margin-right: 0px;

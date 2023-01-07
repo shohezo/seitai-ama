@@ -901,17 +901,25 @@ body.noscroll {
 }
 
 #access .bl_section {
+  padding-right: 4vw;
+  padding-left: 4vw;
+  max-width: 700px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
+}
+
+#access .bl_section_body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#access .bl_section_ttl {
+  font-weight: 700;
+  font-size: 120%;
 }
 
 #access .bl_section_imgWrapper img {
@@ -2883,21 +2891,21 @@ main {
 }
 
 /* コンタクトフォームのスタイリング */
-#page-contact .el_contact_lead {
-  text-align: left;
-}
-
 #page-contact .ly_inner {
   max-width: 700px;
-}
-
-#page-contact p {
-  text-align: center;
 }
 
 #page-contact a {
   color: #338a3e;
   text-decoration: underline;
+}
+
+#page-contact .el_section_lead {
+  text-align: center;
+}
+
+.wpcf7-form.init > p {
+  text-align: center;
 }
 
 .wpcf7 {

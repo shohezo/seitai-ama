@@ -188,27 +188,41 @@ Template Name: フロントページ
     <div class="ly_inner">
         <h2 class="el_section_ttl">Access</h2>
         <span class="el_section_ttl_sub hp_mbSm">アクセス</span>
-        <div class="bl_section hp_flex hp_column_sp hp_ptSm hp_pbMd">
-            <figure class="bl_section_imgWrapper">
+        <div class="bl_section hp_flex hp_column_tb hp_ptSm hp_pbMd">
+            <!-- <figure class="bl_section_imgWrapper">
                 <img src="<?php bloginfo(
                     "template_url"
                 ); ?>/img/logo.png" alt="ロゴ" />
-            </figure>
+            </figure> -->
             <div class="bl_section_body">
+                <h3 class="bl_section_ttl">本店事業所</h3>
+                <p class="bl_section_txt">
+                    〒480-1309<br />
+                    愛知県長久手市溝之杁<br />
+                    (出張施術メインになります)<br />
+                </p>
+                <div class="el_tel hp_mt10">
+                    tel:<a href="tel:+81-090-4260-5246">
+                        <span>090-4260-5246</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bl_section_body">
+                <h3 class="bl_section_ttl">本郷店</h3>
                 <p class="bl_section_txt">
                     〒465-0024<br />
-                    愛知県名古屋市名東区本郷二丁目１６３番地<br />
-                    (地下鉄東山線本郷駅2番出口南側徒歩30秒)<br />
+                    愛知県名古屋市名東区<br class="hp_br-sp">本郷二丁目１６３番地<br />
+                    (地下鉄東山線本郷駅2番出口<br class="hp_br-sp">南側徒歩30秒)<br />
                     営業時間 9:00~21:00<br />
-                <div class="el_tel hp_mtSm hp_mbSm">
+                </p>
+                <div class="el_tel hp_mt10">
                     tel:<a href="tel:+81-052-726-6590">
                         <span>052-726-6590</span>
                     </a>
                 </div>
                 <div class="el_notice">
-                    ※駐車場はございません。近隣のコインパーキングをご利用くださいませ
+                    ※駐車場はございません。<br class="hp_br-sp">近隣のコインパーキングをご利用くださいませ
                 </div>
-                </p>
             </div>
         </div>
         <iframe

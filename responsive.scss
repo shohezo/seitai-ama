@@ -265,9 +265,9 @@
     }
   }
   #access {
-    .bl_section_txt {
-      padding-left: 0vw;
-      padding-right: 0vw;
+    .bl_section{
+      text-align: center;
+      gap: 40px;
     }
   }
   /* ビギナーページ */
@@ -540,18 +540,9 @@
   }
 
   #access {
-    .bl_section_imgWrapper {
-      width: 120px;
-    }
-    .el_tel {
-      text-align: center;
-    }
-    .bl_section_body {
-      width: 80%;
-    }
-    .bl_section_txt {
-      text-align: center;
-    }
+    // .bl_section_imgWrapper {
+    //   width: 120px;
+    // }
   }
 
   .bl_footer_side {
